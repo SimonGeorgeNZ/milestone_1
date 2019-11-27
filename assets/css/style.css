@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Permanent+Marker|100,200,300,400,500,600,700');
+
+
+/*------------------Colors------*/
+
+.bg-color-title {
+    background-color: #000000;
+}
+
+.li-menu-color {
+    background-color: #000000;
+    
+}
+
+
+
+
+/*------------------Heading------*/
+
+header {
+    margin: 0;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.profile {
+    background: url("../images/anthony.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 100;
+    font-size: 85px;
+    margin-top: 50px;
+    color: #ff0000;
+    text-align: center;
+}
+
+.tag-line {
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #cccc00;
+    text-align: center;
+}
+
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
