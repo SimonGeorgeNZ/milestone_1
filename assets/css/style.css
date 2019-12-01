@@ -9,7 +9,10 @@
 
 .li-menu-color {
     background-color: #000000;
-    
+}
+
+.bg-col-blk {
+    background-color: #000000;
 }
 
 
@@ -64,3 +67,43 @@ header {
     padding: 0;
     margin: 0;
 }
+
+/*------------------Nav------*/
+
+
+.nav-but {
+    min-height: 120px;
+    border-color: #ff0000;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-family: "patrick hand";
+    font-size: 50px;
+    color: #ff0000;
+    background-color: #000000;
+    text-align: center;
+    padding-top:20px;
+}
+
+.dropdown-menu {
+    background-color: #000000 !important;
+    border-color: #ff0000!important;
+    border-width: 3px!important;
+    font-size: 20px!important;
+    text-align: center!important;
+    min-width: 75px!important;
+
+}
+
+#dropdownMenuButton {
+    font-family: "patrick hand";
+    font-size: 50px;
+    color: #ff0000;
+    background-color: #000000;
+    border: none;
+}
+
+.dropdown-item {
+    color: #ff0000!important;
+}
+
