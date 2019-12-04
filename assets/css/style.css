@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Permanent+Marker|100,200,300,400,500,600,700');
 
 
+
 /*------------------Colors------*/
 
 .bg-color-title {
@@ -28,6 +29,7 @@
     background-color: #cccc00!important;
 }
 
+
 .name {
     color: #ff0000;
 }
@@ -38,6 +40,9 @@
 
 .nav-but {
     border-color: #ff0000;
+}
+
+.nav-but-text {
     color: #ff0000;
     background-color: #4c4c4c;
 }
@@ -58,6 +63,10 @@
 
 h4 {
     color: #ff0000!important;
+}
+
+.social-links-top {
+    border-color: #ff0000!important;
 }
 
 
@@ -113,16 +122,24 @@ header {
     margin: 0;
 }
 
+.soclai-links-top {
+    padding: 0;
+    z-index: 1;
+}
+
 /*------------------Nav------*/
 
 .nav-but {
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
-    font-family: 'Alatsi', sans-serif;
-    font-size: 35px;
     text-align: center;
     padding-top: 20px;
+}
+
+.nav-but-text {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 35px;
 }
 
 .dropdown-menu {
@@ -144,10 +161,13 @@ header {
 
 
 
+
+
 /*------------------Main-section------*/
 
 .jumbotron {
     margin-bottom: 0!important;
+    z-index: 0;
 }
 
 .jumbotron-main {
@@ -156,9 +176,21 @@ header {
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
-    opacity: 0.2;
-    z-index: 1;
+    opacity: 0.9;
 }
+
+.social-but {
+    font-size: 50px;
+    color: #ff0000;
+    margin-left: 25%;
+}
+
+.contact-main {
+    width: 70%;
+    margin-left: 100px;
+    display: inline-block;
+}
+
 
 
 /*------------------Footer------*/
@@ -171,9 +203,11 @@ header {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
     border: none;
-    display: inline-block;
+    display: block;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .contact {
@@ -200,9 +234,6 @@ input[type="email"] {
 }
 
 
-/*---------------Footer------------------*/
-
-
 
 .social-links li a i {
     font-size: 45px;
@@ -213,11 +244,15 @@ input[type="email"] {
     border-radius: 35px;
     text-align: center;
     padding: 15px 0;
-    
+}
+
+.social-links {
+    margin: auto;
 }
 
 
+/*------------------------modal----------------*/
 
-
-
-
+.modal {
+    z-index: 1000;
+}
