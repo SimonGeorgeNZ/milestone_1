@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <title>Photos</title>
+    <title>Anthony O'Rjoger</title>
 </head>
 
 <body>
@@ -34,7 +34,6 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="photos.html">Photos</a>
                             <a class="dropdown-item" href="videos.html">Videos</a>
-                            <a class="dropdown-item" href="originals.html">Originals</a>
                         </div>
                     </div>
                     <div class="col d-md-block d-none nav-but">
@@ -47,16 +46,34 @@
         </div>
         </div>
     </header>
-    <section class="main-bg-col">
-        <div class="jumbotron jumbotron-main">
 
+    <body class="jumbotron-main">
+        <div class="row no-gutters">
+            <div class="col-4" data-toggle="modal" data-target="#myModal">
+                <img src="assets/images/anthony1.jpg" class="image"></img>
+                <p class="image-text">Belushi's Shepherds Bush</p>
+            </div>
+            <div class="col-4" data-toggle="modal" data-target="#myModal2">
+                <img src="assets/images/anthony2.jpg" class="image"></img>
+                <p class="image-text">"Home sick" Kiwis in London drinks</p>
+            </div>
+            <div class="col-4" data-toggle="modal" data-target="#myModal3">
+                <img src="assets/images/anthony3.jpg" class="image"></img>
+                <p class="image-text">The Chatsworth in Acton</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 bottom-padding">
 
+            </div>
+        </div>
         </div>
 
 
-    </section>
-    <footer class="container-fluid footer-bg footer d-block d-md-none">
-        <div class="row">
+
+    </body>
+    <footer class="container-fluid footer-bg footer">
+        <div class="row  d-block d-md-none">
             <div class="col">
                 <form class="contact">
                     <div class="row no-gutters form">
@@ -71,9 +88,7 @@
                 </form>
             </div>
         </div>
-        <input class="submit" type="submit" value="Ready to rock?!" data-toggle="modal" data-target="#thanks" />
-    </footer>
-    <footer>
+        <input class="submit  d-block d-md-none" type="submit" value="Ready to rock?!" data-toggle="modal" data-target="#thanks" />
         <div class="container soclai-links-top">
             <div class="row no-gutters">
                 <div class="col-3">
@@ -127,5 +142,50 @@
         </div>
     </div>
 </div>
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <img src="assets/images/anthony1.jpg"></img>
+            <div class="modal-footer">
+                <div class="modal-footer">Belushi's Shepherds Bush</div>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModal2">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <img src="assets/images/anthony2.jpg"></img>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModal3">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <img src="assets/images/anthony3.jpg"></img>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 
 </html>
