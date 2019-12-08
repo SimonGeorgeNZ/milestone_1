@@ -25,6 +25,10 @@
     background-color: #cccc00!important;
 }
 
+.contactlink {
+    color: #ff0000!important;
+    background-color: #cccc00!important;
+}
 
 .name {
     color: #ff0000;
@@ -63,6 +67,15 @@ h4 {
 
 .social-links-top {
     border-color: #ff0000!important;
+    background-color: #000000;
+}
+
+.page-heading {
+    color: #ff0000;
+}
+
+.quickcontact {
+    color: #ffffff;
 }
 
 
@@ -119,7 +132,7 @@ header {
     margin: 0;
 }
 
-.soclai-links-top {
+.social-links-top {
     padding-bottom: 0;
     margin: 0;
     border-style: none;
@@ -164,13 +177,20 @@ header {
     padding-top: 15px;
 }
 
-.dropdown-menu .dropdown-item:hover {
+.dropdown-toggle:hover {
     background-color: transparent;
+    color: #000000!important
+}
+
+
+.dropdown-item:hover {
+    background-color: transparent!important;
+    color: #000000!important
 }
 
 .nav-but-text:hover {
     cursor: pointer;
-    color: #ff0000;
+    color: #000000!important;
     text-decoration: none;
 }
 
@@ -228,12 +248,6 @@ h1 {
     text-align: center;
 }
 
-.form-control {
-    border-style: solid!important;
-    border-width: 3px!important;
-    border-color: #000000!important;
-}
-
 .image {
     margin: auto;
     margin-top: 100px;
@@ -276,6 +290,23 @@ h1 {
     height: auto;
 }
 
+/*------------------Contact------*/
+
+.form-control {
+    border-style: solid!important;
+    border-width: 3px!important;
+    border-color: #000000!important;
+}
+
+.page-heading {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
 /*------------------Footer------*/
 
 .footer {
@@ -286,16 +317,27 @@ h1 {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
     border: none;
-    display: block;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 15px;
+    width: 350px;
+}
+
+.contactlink {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 26px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
 }
 
 .contact {
     padding: 10px;
-    margin-top: 20px;
 
 }
 
@@ -313,6 +355,7 @@ input[type="email"] {
     font-size: 26px;
 }
 
+
 #projectsummary {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
@@ -320,4 +363,20 @@ input[type="email"] {
 
 .social-links-top {
     width: 100vw;
+}
+
+.quickcontact {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contactlink:hover {
+    text-decoration: none;
+    color: #000000!important;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #000000!important;
 }
