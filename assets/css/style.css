@@ -241,7 +241,7 @@ h1 {
 
 .about {
     text-align: justify;
-    margin: 15px;
+    margin: 60px;
 }
 
 .text-box-heading {
@@ -309,10 +309,6 @@ h1 {
 
 /*------------------Footer------*/
 
-.footer {
-    padding: 20px;
-}
-
 .submit {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
@@ -338,7 +334,14 @@ h1 {
 
 .contact {
     padding: 10px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
 
+.contactmobile {
+    padding: 10px;
+    margin-left: 54px;
+    margin-right: 54px;
 }
 
 #fullname {
