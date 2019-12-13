@@ -5,15 +5,12 @@
 /*------------------Colors------*/
 
 .bg-color-title {
-    background-color: #4c4c4c;
+    background-color: #000000;
 }
 
-.li-menu-color {
-    background-color: #4c4c4c;
-}
 
 .bg-col-blk {
-    background-color: #4c4c4c;
+    background-color: #000000;
 }
 
 .footer-bg {
@@ -44,17 +41,18 @@
 
 .nav-but-text {
     color: #ff0000;
-    background-color: #4c4c4c;
+    background-color: transparent;
 }
 
 .dropdown-menu {
-    background-color: #4c4c4c !important;
+    background-color: #000000 !important;
     border-color: #ff0000!important;
 }
 
+
 #dropdownMenuButton {
     color: #ff0000;
-    background-color: #4c4c4c;
+    background-color: transparent;
 }
 
 .dropdown-item {
@@ -81,44 +79,49 @@ h4 {
 
 /*------------------Heading------*/
 
+.bg-color-title {
+    min-height: 250px;
+}
+
 header {
     margin: 0;
 }
 
+/*----
 .title {
     margin-left: 25px;
     margin-right: 25px;
 }
 
+----*/
 
 .profile {
     background: url("../images/anthony.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
     transition: all ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-
 }
+
 
 .name {
     font-family: "Permanent Marker", sans-serif;
     font-weight: 100;
-    font-size: calc(70px + 1vw);
-    margin-top: 50px;
+    font-size: calc(60px + 1vw);
     text-align: center;
     padding-bottom: 20px;
+    margin-left: 0!important;
+    padding-top: 25px;
 }
 
 .tag-line {
     font-family: "Permanent Marker", sans-serif;
     font-weight: 200;
-    font-size: calc(30px + 1vw);
-    margin-bottom: 20px;
+    font-size: calc(20px + 1vw);
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 
@@ -126,16 +129,22 @@ header {
     font-size: 0;
 }
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-}
 
 .social-links-top {
     padding-bottom: 0;
     margin: 0;
     border-style: none;
+}
+
+.bg-mob-title {
+    background: url("../images/anthony.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out;
+    min-height: 220px;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /*------------------Nav------*/
@@ -145,27 +154,35 @@ header {
     border-width: 3px;
     border-radius: 10px;
     text-align: center;
-    padding-top: 20px;
+    height: 75px;
+}
+
+.nav-but-pad {
+    padding-top: 5px;
 }
 
 .nav-but-text {
     font-family: 'Alatsi', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
 }
+
 
 .dropdown-menu {
     border-width: 3px!important;
-    font-size: 35px!important;
+    font-size: 45px!important;
     text-align: center!important;
     min-width: 75px!important;
     min-height: 75px!important;
     border-radius: 10px!important;
+    padding: 0!important;
+
 }
 
 #dropdownMenuButton {
     font-family: 'Alatsi', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     border: none;
+    height: 70px;
 }
 
 .icon {
@@ -177,21 +194,37 @@ header {
     padding-top: 15px;
 }
 
+#dropdownMenuButton:hover {
+    color: #000000!important;
+}
+
 .dropdown-toggle:hover {
-    background-color: transparent;
-    color: #000000!important
+    background-color: #ffffff!important;
+    color: #000000!important;
 }
 
 
 .dropdown-item:hover {
-    background-color: transparent!important;
+    background-color: #ffffff!important;
     color: #000000!important
+}
+
+.nav-but:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    text-decoration: none;
 }
 
 .nav-but-text:hover {
     cursor: pointer;
+    background-color: #ffffff;
     color: #000000!important;
     text-decoration: none;
+}
+
+.dropdown-toggle:after {
+    position: absolute;
+    margin-bottom: 40px;
 }
 
 
@@ -205,7 +238,6 @@ header {
 
 .text-box {
     font-family: 'Alatsi', sans-serif;
-    margin: 40px;
     text-transform: uppercase;
 }
 
@@ -240,8 +272,10 @@ h1 {
 }
 
 .about {
-    text-align: justify;
-    margin: 60px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
 .text-box-heading {
@@ -259,9 +293,8 @@ h1 {
 
 .video {
     text-align: center;
-    height: 150px;
-    width: 150px;
     margin-top: 50px;
+    margin-bottom: 0!important;
 }
 
 .image:hover {
@@ -306,9 +339,6 @@ h1 {
     padding-top: 20px;
 }
 
-.contactdes {
-    padding-top: 25px;
-}
 
 
 /*------------------Footer------*/
@@ -316,7 +346,7 @@ h1 {
 .submit {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
-    border: none;
+    border: solid 3px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -326,26 +356,26 @@ h1 {
 
 .contactlink {
     font-family: 'Alatsi', sans-serif;
-    font-size: 26px;
-    border: none;
+    font-size: 35px;
+    border: solid 5px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 15px;
-    width: 350px;
+    min-width: 80vw;
+    height: 60px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .contact {
     padding: 10px;
-    margin-left: 54px;
-    margin-right: 54px;
+    width: 85vw;
+    margin: auto;
 }
 
 .contactmobile {
     padding: 10px;
-    margin-left: 54px;
-    margin-right: 54px;
 }
 
 #fullname {
