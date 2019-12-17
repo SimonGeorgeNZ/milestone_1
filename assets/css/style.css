@@ -50,9 +50,14 @@
 }
 
 
+
 #dropdownMenuButton {
     color: #ff0000;
     background-color: transparent;
+}
+
+.dropdown-toggle::after {
+    content: none!important;
 }
 
 .dropdown-item {
@@ -137,15 +142,16 @@ header {
 }
 
 .bg-mob-title {
-    background: url("../images/anthony.jpg");
+    background: url("../images/Logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all ease-in-out;
-    min-height: 220px;
+    min-height: 180px;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
 
 /*------------------Nav------*/
 
@@ -190,19 +196,12 @@ header {
     color: #ff0000;
 }
 
-.dropdown {
-    padding-top: 15px;
-}
+/*
 
 #dropdownMenuButton:hover {
     color: #000000!important;
 }
-
-.dropdown-toggle:hover {
-    background-color: #ffffff!important;
-    color: #000000!important;
-}
-
+*/
 
 .dropdown-item:hover {
     background-color: #ffffff!important;
@@ -223,8 +222,7 @@ header {
 }
 
 .dropdown-toggle:after {
-    position: absolute;
-    margin-bottom: 40px;
+    display: hidden;
 }
 
 
@@ -271,11 +269,36 @@ h1 {
     margin-left: 25%;
 }
 
-.about {
-    text-align: left;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
+@media screen and (min-width: 992px) {
+    .about {
+        text-align: left;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 992px) {
+    .about {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .title {
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:964px) {
+    .name {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .image {
+        min-width: 80vw;
+    }
 }
 
 .text-box-heading {
@@ -284,10 +307,10 @@ h1 {
 
 .image {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     display: block;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 
 }
 
@@ -318,9 +341,10 @@ h1 {
     text-align: center;
 }
 
+
 .modal-image {
-    width: auto;
-    height: auto;
+    min-width: 50vw!important;
+    min-height: 50vh!important;
 }
 
 /*------------------Contact------*/
@@ -396,6 +420,7 @@ input[type="email"] {
 #projectsummary {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
+    margin-top: 10px;
 }
 
 .social-links-top {
