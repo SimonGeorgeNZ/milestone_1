@@ -136,9 +136,8 @@ header {
 
 
 .social-links-top {
-    padding-bottom: 0;
-    margin: 0;
     border-style: none;
+    width: 100vw;
 }
 
 .bg-mob-title {
@@ -154,6 +153,8 @@ header {
 
 
 /*------------------Nav------*/
+
+
 
 .nav-but {
     border-style: solid;
@@ -249,18 +250,14 @@ h1 {
     color: #ff000!important;
 }
 
-.jumbotron {
-    margin-bottom: 0!important;
-    padding: 0;
-}
 
 .jumbotron-main {
     background-attachment: scroll;
     background: url("../images/Background-image.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0;
-
+    padding: 0!important;
+    margin-bottom: 0!important;
 }
 
 .social-but {
@@ -269,37 +266,6 @@ h1 {
     margin-left: 25%;
 }
 
-@media screen and (min-width: 992px) {
-    .about {
-        text-align: left;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 30px;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 992px) {
-    .about {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-    .title {
-        max-height: 200px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:964px) {
-    .name {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .image {
-        min-width: 80vw;
-    }
-}
 
 .text-box-heading {
     text-align: center;
@@ -378,6 +344,10 @@ h1 {
     width: 350px;
 }
 
+.submit-contact {
+    margin-bottom: 140px;
+}
+
 .contactlink {
     font-family: 'Alatsi', sans-serif;
     font-size: 35px;
@@ -423,9 +393,6 @@ input[type="email"] {
     margin-top: 10px;
 }
 
-.social-links-top {
-    width: 100vw;
-}
 
 .quickcontact {
     font-family: 'Alatsi', sans-serif;
@@ -441,4 +408,66 @@ input[type="email"] {
 .submit:hover {
     cursor: pointer;
     color: #000000!important;
+}
+
+.footer-contact {
+    position: fixed;
+    bottom: 0;
+}
+
+/*------------------Media queerys------*/
+
+@media screen and (min-width: 992px) {
+    .about {
+        text-align: left;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .title {
+        max-height: 200px;
+    }
+    .text-box {
+        max-height: 200px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:964px) {
+    .name {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .image {
+        min-width: 150px;
+    }
+    .contact {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .nav-but-text {
+        font-size: 35px;
+    }
+    #dropdownMenuButton {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .nav-but {
+        height: 55px;
+    }
+    .dropdown-menu.show {
+        margin-top: -20px;
+    }
 }
