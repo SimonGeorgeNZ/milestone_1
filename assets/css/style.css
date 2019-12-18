@@ -154,7 +154,9 @@ header {
 
 /*------------------Nav------*/
 
-
+.nav-end {
+    margin-right: 2px;
+}
 
 .nav-but {
     border-style: solid;
@@ -217,7 +219,7 @@ header {
 
 .nav-but-text:hover {
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: transparent;
     color: #000000!important;
     text-decoration: none;
 }
