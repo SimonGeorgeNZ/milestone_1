@@ -10,5 +10,44 @@ I wanted to build a site that Anthony could use to promote himself for both priv
 find the info on the site that they were looking for, and to easily be able to get in touch with Anthony if they wanted to book him, which 
 is why I put two different contact forms in. 
 
+I also wanted it to be easy for the users to find the content they were looking for, which is why it was split across pages, and not across
+a large scrollable area. 
+
+FEATURES
+
+- The user accesses a dropdown menu by clicking on "Content" within the nav bar
+- The user is linked to the "quick contact" at the bottom of the screen when they click on "Contact" within the nav bar. If the user
+  wishes to give some extra information on the gig, they can click the large "Click here to make a full enquiry" button. On mobile
+  this button dissapears and the full enquiry form is loaded at the bottom of each page.
+- The user can open all of Anthony's social links from the footer which will open in a new tab.
+- The user accesses a photo modal when clicking on each of the photos
+- When the user clicks on any of the "Get in touch" buttons, a modal will open. 
+- When displaying on mobile screens, the information on the front page will turn into scrollable text boxes. This was to free up space
+  on the front screen without losing any of the information, and so the page didn't appear so information heavy. 
+- When viewed on a mobile device the nav bar hides the image of Anthony, along with his name and the tag line. This is replaced with Anthony's 
+  logo and the nav bar below the logo.
+ 
+
+FEATURES LEFT TO IMPLEMENT
+
+- I'd like to incorporate an interactive calendar to show where Anthony was playing on upcoming dates
+- A social feed to show latest updates on the front page would be a nice addition as well.
+- I was unable to work out how to create a modal for the contact forms, that would display if the required info wasn't entered into the form.
+  In this case I would want at the very least a name and email.
+
+
+TECHNOLOGIES USED
+
+HTML (https://html.com/) - Content is written in HTML 
+CSS (https://www.w3.org/Style/CSS/) - Styling is achieved through a linked CSS style document
+Javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Modals and dropdown menu's were achieved through Javascript
+Bootstrap (https://getbootstrap.com/) - Bootstrap was used as a framework 
+Fontawesome (https://fontawesome.com/) - I used fontawesome for some small images used on the front page
+Google fonts (https://fonts.google.com/) - The two main font's I used were sourced from Google fonts
+
+TESTING
+
+I ran my code through a code validator (https://validator.w3.org/nu/) which returned a number of errors which I fixed easily. 
+The remaining errors
 
 

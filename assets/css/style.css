@@ -307,10 +307,14 @@ h1 {
     text-align: center;
 }
 
+.modal-content {
+    width: 50vw;
+}
 
 .modal-image {
-    min-width: 50vw!important;
-    min-height: 50vh!important;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
 
 /*------------------Contact------*/
