@@ -18,7 +18,7 @@
 }
 
 .submit {
-    color: #ff0000!important;
+    color: #000000!important;
     background-color: #cccc00!important;
 }
 
@@ -231,10 +231,26 @@ header {
 
 /*------------------Main-section------*/
 
+.mob-image {
+    background: url("../images/anthony_mob.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out;
+    height: 200px;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
 .text-box-heading {
     color: #ff0000;
     font-family: "Permanent Marker", sans-serif;
     text-transform: uppercase;
+}
+
+.text-box-heading-top {
+    padding-top: 25px;
 }
 
 .text-box {
@@ -382,6 +398,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+#fullnamemobile {
+    margin-bottom: 10px;
+}
+
 input[type="text"] {
     font-family: 'Alatsi', sans-serif;
     font-size: 26px;
@@ -413,7 +433,7 @@ input[type="email"] {
 
 .submit:hover {
     cursor: pointer;
-    color: #000000!important;
+    color: #ff0000!important;
 }
 
 .footer-contact {
