@@ -398,6 +398,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+#emailaddress {
+    margin-bottom: 10px;
+}
+
 #fullnamemobile {
     margin-bottom: 10px;
 }
@@ -439,6 +443,14 @@ input[type="email"] {
 .footer-contact {
     position: fixed;
     bottom: 0;
+}
+
+label {
+    color: #ffffff;
+}
+
+.labelcontact {
+    color: #000000;
 }
 
 /*------------------Media queerys------*/
