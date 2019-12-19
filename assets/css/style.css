@@ -81,6 +81,14 @@ h4 {
     color: #ffffff;
 }
 
+label {
+    color: #ffffff;
+}
+
+.labelcontact {
+    color: #000000;
+}
+
 
 /*------------------Heading------*/
 
@@ -445,13 +453,7 @@ input[type="email"] {
     bottom: 0;
 }
 
-label {
-    color: #ffffff;
-}
 
-.labelcontact {
-    color: #000000;
-}
 
 /*------------------Media queerys------*/
 
