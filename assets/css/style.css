@@ -82,11 +82,11 @@ h4 {
 }
 
 label {
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 .labelcontact {
-    color: #000000;
+    color: #000000!important;
 }
 
 
